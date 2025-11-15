@@ -1,37 +1,10 @@
 # DevOps Directive GitHub Actions Course
 
-This is the companion repo to: [GitHub Actions: Beginner to Pro](https://courses.devopsdirective.com/github-actions-beginner-to-pro)
-
-[![](./readme-assets/thumbnail-yt.png)](https://youtu.be/Xwpi0ITkL3U)
-
-## 🙌 Sponsored by Namespace Labs
-
-This course is made possible thanks to [namespace.so](https://namespace.so/?utm_source=devopsdirective), the best way level up your software build and developer workflows!
-
-
-[![](./readme-assets/namespace-screenshot.png)](https://namespace.so/?utm_source=devopsdirective)
-
-- **Faster GitHub Actions:** Hosted GHA runners for faster runs at a fraction of the cost!
-- **Faster Docker Builds:** Remote Docker builders for massive container build speedups!
-- **Continuous Integration Visibility:** Clear metrics and analytics to enable further CI optimization!
-
-## 📚 Course Outline
-- **History & Motivation:** why pipeline automation matters and the deployment metrics it influences.
-- **Why GitHub Actions?:** managed runners, marketplace, and comparisons with other CI/CD tools.
-- **Core Features:** workflows, jobs, steps, events, expressions, and secrets.
-- **Advanced Features:** permissions, third-party authentication, caching, artifacts, and runner options.
-- **Marketplace Actions:** discover and safely consume community actions.
-- **Authoring Actions:** composite, reusable, JavaScript, and container actions.
-- **Common Workflows:** validate, build, deploy, and automate your repository.
-- **Developer Experience:** run locally with act, debug runs, and gather insights.
-- **Best Practices:** performance tuning, maintainability, and security.
-- **Capstone Project:** apply everything in a hands-on final exercise.
-
 ## Development Environment Setup
 
 1. **Clone this repository (including submodules)**  
 ```bash
-git clone --recurse-submodules git@github.com:sidpalas/devops-directive-github-actions-course.git
+git clone --recurse-submodules  git@github.com:rajeshkumarkanaparthi/devops-directive-github-actions-course.git
 ```
 
 2. **Install DevBox** – DevBox bootstraps all required CLI tools (Go, Node.js, Python, `act`, `task`, `npc`, `civo`, `gh`, `jq`, `yq`, `kubectl`, `kluctl`, ...).  
